@@ -44,7 +44,7 @@ const OTPVerify = () => {
           <Text
             key={index}
             className={clsx(
-              'w-10 h-10 text-6 leading-9 border-2 border-[#00000030] rounded-full text-center bg-neutral-line',
+              'h1 w-12 h-12 leading-[36px] border-2 border-[#00000030] rounded-full text-center bg-neutral-line',
               isFocused && 'border-black',
             )}
             onLayout={getCellOnLayoutHandler(index)}
