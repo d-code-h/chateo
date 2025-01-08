@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1,
+.h2 {
+  @apply font-mulish-bold;
+}
+
+.h3,
+.h4,
+.body-1,
+.meta-3 {
+  @apply font-mulish-semibold;
+}
+
+.body-2,
+.meta-1,
+.meta-2 {
+  @apply font-mulish;
+}
+
+.h1 {
+  @apply text-[32px];
+}
+
+.h2 {
+  @apply text-2xl;
+}
+
+.h3 {
+  @apply text-lg;
+}
+
+.h4 {
+  @apply text-base;
+}
+
+.body-1,
+.body-2 {
+  @apply text-sm;
+}
+
+.meta-1 {
+  @apply text-xs;
+}
+
+.meta-2,
+.meta-3 {
+  @apply text-[10px];
+}
